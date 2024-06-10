@@ -1,12 +1,12 @@
 const links = {
-  instagram: "https://pillai.xyz/instagram",
-  linkedin: "https://pillai.xyz/linkedin",
-  twitter: "https://pillai.xyz/twitter",
-  github: "https://pillai.xyz/github",
-  dribbble: "https://pillai.xyz/dribbble",
-  dev: "https://pillai.xyz/dev",
-  facebook: "https://pillai.xyz/facebook",
-  resume: "https://pillai.xyz/resume-pdf",
+  instagram: "",
+  linkedin: "https://linkedin.com/in/olabode-omoyele-0b21821a5",
+  twitter: "",
+  github: "https://github.com/Yele-the1st",
+  dribbble: "",
+  dev: "https://dev.to/yelethe1st",
+  facebook: "",
+  resume: "",
   repository: "https://github.com/AmruthPillai/ResumeOnTheWeb",
 };
 

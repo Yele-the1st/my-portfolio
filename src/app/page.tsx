@@ -24,8 +24,6 @@ import { Article, sampleDribbbleShots } from "@/types/Sections";
 const Home = () => {
   const [articles, setArticles] = useState<Article[]>([]);
 
-  console.log(articles);
-
   useEffect(() => {
     const fetchArticles = async () => {
       const fetchedArticles = await getArticles();
