@@ -1,11 +1,11 @@
+"use server";
+
 import { Article } from "@/types/Sections";
 
 export const getArticles = async (): Promise<Article[]> => {
   const pageSize = 6;
   const username = "yelethe1st";
-  const apiKey = process.env.DEV_COMMUNITY_API_KEY;
-
-  console.log(apiKey);
+  const apiKey = process.env.NEXT_PUBLIC_DEV_COMMUNITY_API_KEY;
 
   if (!apiKey) return [];
 
