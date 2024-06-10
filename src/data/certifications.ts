@@ -3,7 +3,7 @@ import type { Certification } from "@/types/Sections";
 const certificationsList: Certification[] = [
   {
     id: 1,
-    title: "Applied CS with Android",
+    title: "Introduction to Generative AI Learning Path Specialization",
     subtitle: "Google",
   },
   {
@@ -23,8 +23,8 @@ const certificationsList: Certification[] = [
   },
   {
     id: 5,
-    title: "Java - Level 1 & 2",
-    subtitle: "Cambridge Certification Authority",
+    title: "Master JavaScript from Basics to Advanced",
+    subtitle: "Udemy",
   },
 ];
 

@@ -2,17 +2,24 @@
 
 import AboutLetsgo from "@/sections/AboutLetsgo";
 import AboutMe from "@/sections/AboutMe";
+import Achievements from "@/sections/Achievements";
+import Blog from "@/sections/Blog";
+import Certifications from "@/sections/Certifications";
 import Contact from "@/sections/Contact";
+import Designs from "@/sections/Designs";
 import EducationTimeline from "@/sections/Education";
 import Footer from "@/sections/Footer";
 import Header from "@/sections/Header";
+import Languages from "@/sections/Languages";
+import Music from "@/sections/Music";
+import Philantrophy from "@/sections/Philantrophy";
 import Projects from "@/sections/Projects";
 import Resume from "@/sections/Resume";
 import Skills from "@/sections/Skills";
 import WorkExperienceTimeline from "@/sections/WorkExperience";
-import Image from "next/image";
+import { sampleDribbbleShots } from "@/types/Sections";
 
-export default function Home() {
+const Home = () => {
   return (
     <div className="grid gap-24">
       <Header />
@@ -24,6 +31,18 @@ export default function Home() {
         </div>
         <Skills />
         <Projects />
+        <Blog />
+        <Languages />
+
+        <div className="grid lg:grid-cols-3 gap-12">
+          <Achievements />
+          <Certifications />
+          <Philantrophy />
+        </div>
+
+        <Music />
+        <Designs dribbbleShots={sampleDribbbleShots} />
+
         <Resume />
         <Contact />
         <AboutLetsgo />
@@ -31,4 +50,6 @@ export default function Home() {
       </div>
     </div>
   );
-}
+};
+
+export default Home;

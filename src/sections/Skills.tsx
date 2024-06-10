@@ -18,7 +18,7 @@ const skills: Skill[] = [
   },
   {
     id: 2,
-    icon: "/images/skills/angular.png",
+    icon: "/images/skills/react.png",
     name: "Frontend Javascript Frameworks",
     technologies: ["React", "Next.js"],
   },
@@ -63,18 +63,6 @@ const skills: Skill[] = [
     icon: "/images/skills/seo.png",
     name: "Search Engine Optimization",
     technologies: ["PageRank", "Backlinks", "Google Analytics"],
-  },
-  {
-    id: 10,
-    icon: "/images/skills/photography.png",
-    name: "Photography & Cinematography",
-    technologies: ["Adobe Photoshop", "Adobe Lightroom"],
-  },
-  {
-    id: 11,
-    icon: "/images/skills/fcpx.png",
-    name: "Photo & Video Post-Processing",
-    technologies: ["Adobe After Effects", "Final Cut Pro X"],
   },
 ];
 
