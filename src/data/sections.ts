@@ -83,7 +83,7 @@ const sectionsList: SectionMap = {
   },
   [Section.AboutLetsgo]: {
     icon: MdInfo,
-    title: "About Resume on the Web",
+    title: "About Lets Go",
   },
 };
 

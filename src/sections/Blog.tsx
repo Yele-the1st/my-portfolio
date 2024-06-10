@@ -20,7 +20,7 @@ const Blog: React.FC<Props> = ({ articles }) => (
             href={article.url}
             alt={article.title}
             src={article.social_image}
-            height={250}
+            dimensions={{ width: 423, height: 211 }}
           />
 
           <div>

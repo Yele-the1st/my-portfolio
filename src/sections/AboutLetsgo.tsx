@@ -10,37 +10,36 @@ const AboutLetsgo = () => (
 
     <div className="w-full lg:w-3/4 max-w-full prose prose-sm md:prose-base prose-neutral dark:prose-invert">
       <p>
-        <strong>Resume on the Web</strong> has been a project that I&apos;ve
-        been focused on since the early 2014s. I didn&apos;t want my information
-        to be displayed on just a sheet of paper that only HRs or Talent Scouts
-        had the privilege of reading, I wanted it to be accessible to everyone.
-        And that&apos;s how this project was conceptualized.
+        <strong>Lets Go</strong> has been a passion project of mine since the
+        early this year. I envisioned a platform where my information
+        wouldn&apos;t be confined to a mere sheet of paper accessible only to
+        HRs or Talent Scouts, but rather readily available to everyone. And
+        thus, Lets Go was born.
+      </p>
+      <p>
+        I continually update Lets Go to reflect who I am because, like this
+        website, I believe in evolving. I embrace the latest technologies and
+        use this platform to challenge myself, exploring new frameworks, build
+        tools, and design concepts while ensuring that getting to know me
+        remains simple and intuitive.
       </p>
 
       <p>
-        I constantly update it to match who I am, because just like this
-        website, I don&apos;t have a static personality. I use the latest
-        technologies and use this platform to challenge myself into learning new
-        frameworks, new build tools, experiment with new design ideas while
-        keeping the core principle of getting to know me as simple as possible.
+        This iteration of Lets Go was crafted using NextJS (React), Tailwind CSS
+        for its utility-first approach, and hosted on Vercel.
       </p>
 
       <p>
-        This version of the project was built using NextJS (React), Tailwind CSS
-        for their utility-first classes and Vercel to host the site.
+        I hope you enjoy Lets Go as much as I enjoyed crafting and learning from
+        it. Your feedback matters to me, so please don&apos;t hesitate to reach
+        out using the contact form above. I&apos;d love to hear from you.
       </p>
 
       <p>
-        I hope you loved the site as much as I enjoyed developing it and
-        learning from it. If you did, please let me know using the contact form
-        above, I would be ecstatic to hear from you.
-      </p>
-
-      <p>
-        If you would like to peek around the code and see what makes this
-        website tick, the complete source code can be found on GitHub. You can
-        even edit it to make your own version of the site, as this project is
-        copylefted under the permissive MIT License.
+        If you&apos;re curious about the inner workings of Lets Go and want to
+        explore its codebase, you can find the complete source code on GitHub.
+        Feel free to customize it to suit your needs, as Lets Go is licensed
+        under the permissive MIT License.
       </p>
     </div>
 

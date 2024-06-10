@@ -6,18 +6,19 @@ const projectsList: Project[] = [
     image: "/images/projects/Letsgo.png",
     name: "Letsgo",
     summary:
-      "A one-of-a-kind resume builder that keeps your privacy in mind. Completely secure, customizable, portable, open-source and free forever.",
+      "Streamlines event ticketing and vendor collaboration with tools for simplifying event management.",
     tags: [
-      "opensource",
+      "Saas",
       "webdev",
       "fullstack",
       "react",
       "nestjs",
       "tailwindcss",
+      "Nodejs",
     ],
     link: {
-      web: "https://rxresu.me",
-      github: "https://github.com/AmruthPillai/Reactive-Resume",
+      web: "https://letsgo-events.vercel.app",
+      github: "",
     },
   },
   {
@@ -25,11 +26,11 @@ const projectsList: Project[] = [
     image: "/images/projects/Lincher.png",
     name: "Vesil",
     summary:
-      "A fun experiement to understand the ache that is handling Dates and Time Zones on the frontend. Allows you to check the current time of multiple timezones at once, with a unique UI experience.",
+      "An eLearning platform where experts create structured learning roadmaps using YouTube videos.",
     tags: ["opensource", "react", "dayjs", "tailwindcss"],
     link: {
-      web: "https://timeenna.com",
-      github: "https://github.com/AmruthPillai/Time-Enna",
+      web: "https://www.vesil.xyz/",
+      github: "https://github.com/Yele-the1st/lincher_v2",
     },
   },
   {
@@ -37,7 +38,7 @@ const projectsList: Project[] = [
     image: "/images/projects/nextjs-starter.png",
     name: "Nextjs Starter",
     summary:
-      "A fun experiement to understand the ache that is handling Dates and Time Zones on the frontend. Allows you to check the current time of multiple timezones at once, with a unique UI experience.",
+      "A boilerplate for Next.js projects, providing essential tools to build modern, performant web applications.",
     tags: ["opensource", "react", "dayjs", "tailwindcss"],
     link: {
       web: "https://timeenna.com",
@@ -49,7 +50,7 @@ const projectsList: Project[] = [
     image: "/images/projects/superauth.png",
     name: "Super Auth",
     summary:
-      "Be Thrifty Today is a simple and secure money management app that helps you track your incomes and expenses.",
+      "An Authjs template that includes complete authentication flow, user authorization, credentials and OAuth login, and protected routes.",
     tags: ["opensource", "appdev", "flutter", "firebase", "android"],
     link: {
       web: "https://play.google.com/store/apps/details?id=today.bethrifty.app",
@@ -61,7 +62,7 @@ const projectsList: Project[] = [
     image: "/images/projects/superfilter.png",
     name: "Super Filter",
     summary:
-      "A simple game to test your vocabulary and your memory, with a little bit of fun. Let's see what are all the words that you know?",
+      "Super Filter is part of a template set for advanced filtering and sorting of products.",
     tags: ["opensource", "webdev", "gamedev", "react", "tailwindcss"],
     link: {
       web: "https://ap-all-the-words-that-i-know.web.app/",
@@ -73,7 +74,7 @@ const projectsList: Project[] = [
     image: "/images/projects/supersearch.png",
     name: "Super Search",
     summary:
-      "A mutual fund investment calculator which allows you to track your SIP and Lumpsum investments and using real historical NAV data from AMFI.",
+      "Super Search uses semantic search with a vector database and an LLM model for embedding, rather than lexical search.",
     tags: ["opensource", "fintech", "scraping", "python", "angular"],
     link: {
       github:
@@ -83,10 +84,10 @@ const projectsList: Project[] = [
   {
     id: 7,
     image: "/images/projects/dona8.png",
-    name: "Dona8",
+    name: "Afri-Charity",
     summary:
-      "A wedding blog/magazine focused on making the bride and groom's day as memorable as possible by sourcing the best of content.",
-    tags: ["wordpress", "webdev", "php", "mysql", "seo"],
+      "Afri-Charity serves as a hub for unity and action, bringing together individuals, nonprofits, and charities to create positive change.",
+    tags: ["webdev", "php", "mysql", "seo"],
   },
 ];
 
