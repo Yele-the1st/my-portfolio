@@ -34,6 +34,18 @@ const projectsList: Project[] = [
   },
   {
     id: 3,
+    image: "/images/projects/nextjs-starter.png",
+    name: "Nextjs Starter",
+    summary:
+      "A fun experiement to understand the ache that is handling Dates and Time Zones on the frontend. Allows you to check the current time of multiple timezones at once, with a unique UI experience.",
+    tags: ["opensource", "react", "dayjs", "tailwindcss"],
+    link: {
+      web: "https://timeenna.com",
+      github: "https://github.com/AmruthPillai/Time-Enna",
+    },
+  },
+  {
+    id: 4,
     image: "/images/projects/superauth.png",
     name: "Super Auth",
     summary:
@@ -45,7 +57,7 @@ const projectsList: Project[] = [
     },
   },
   {
-    id: 4,
+    id: 5,
     image: "/images/projects/superfilter.png",
     name: "Super Filter",
     summary:
@@ -57,7 +69,7 @@ const projectsList: Project[] = [
     },
   },
   {
-    id: 5,
+    id: 6,
     image: "/images/projects/supersearch.png",
     name: "Super Search",
     summary:
@@ -69,7 +81,7 @@ const projectsList: Project[] = [
     },
   },
   {
-    id: 6,
+    id: 7,
     image: "/images/projects/dona8.png",
     name: "Dona8",
     summary:
