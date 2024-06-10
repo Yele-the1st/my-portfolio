@@ -37,7 +37,7 @@ const Navigation = () => {
 
   if (!isDesktop) {
     return (
-      <div className="fixed inset-x-0 top-0 px-3 py-5 w-screen text-neutral-800 dark:text-neutral-200 flex items-center justify-between">
+      <div className="fixed  inset-x-0 top-0 px-3 py-5 w-screen text-neutral-800 dark:text-neutral-200 flex items-center justify-between">
         <Tippy content={<small>Go to Top</small>} placement="right">
           <div
             onClick={animateScroll.scrollToTop}
@@ -64,7 +64,7 @@ const Navigation = () => {
   }
 
   return (
-    <div className="fixed inset-y-0 w-16 py-5 h-screen text-neutral-800 dark:text-neutral-200 flex flex-col items-center justify-between">
+    <div className="fixed z-20 inset-y-0 w-16 py-5 h-screen text-neutral-800 dark:text-neutral-200 flex flex-col items-center justify-between">
       <Tippy content={<small>Go to Top</small>} placement="right">
         <div
           onClick={animateScroll.scrollToTop}
