@@ -1,3 +1,5 @@
+"use client";
+
 import { useEffect, useState } from "react";
 import Button from "@/components/Button";
 import ImageLink from "@/components/ImageLink";
@@ -7,8 +9,28 @@ import { Article, Section } from "@/types/Sections";
 import { formatDateString, getSectionHeading, openURLInNewTab } from "@/utils";
 import { getArticles } from "@/services";
 
-const Blog: React.FC = async () => {
-  const articles = await getArticles();
+const Blog: React.FC = () => {
+  const [articles, setArticles] = useState<Article[]>([]);
+  const [loading, setLoading] = useState<boolean>(true);
+
+  useEffect(() => {
+    const fetchArticles = async () => {
+      try {
+        const articlesData = await getArticles();
+        setArticles(articlesData);
+      } catch (error) {
+        console.error("Error fetching articles:", error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchArticles();
+  }, []);
+
+  if (loading) {
+    return <div>Loading...</div>;
+  }
 
   return (
     <div id={Section.Blog}>
