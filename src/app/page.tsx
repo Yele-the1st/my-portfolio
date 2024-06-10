@@ -1,5 +1,6 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import AboutLetsgo from "@/sections/AboutLetsgo";
 import AboutMe from "@/sections/AboutMe";
 import Achievements from "@/sections/Achievements";
@@ -17,9 +18,23 @@ import Projects from "@/sections/Projects";
 import Resume from "@/sections/Resume";
 import Skills from "@/sections/Skills";
 import WorkExperienceTimeline from "@/sections/WorkExperience";
-import { sampleDribbbleShots } from "@/types/Sections";
+import { getArticles } from "@/services";
+import { Article, sampleDribbbleShots } from "@/types/Sections";
 
 const Home = () => {
+  const [articles, setArticles] = useState<Article[]>([]);
+
+  console.log(articles);
+
+  useEffect(() => {
+    const fetchArticles = async () => {
+      const fetchedArticles = await getArticles();
+      setArticles(fetchedArticles);
+    };
+
+    fetchArticles();
+  }, []);
+
   return (
     <div className="grid gap-24">
       <Header />
@@ -31,7 +46,7 @@ const Home = () => {
         </div>
         <Skills />
         <Projects />
-        <Blog />
+        <Blog articles={articles} />
         <Languages />
 
         <div className="grid lg:grid-cols-3 gap-12">

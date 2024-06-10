@@ -1,9 +1,11 @@
-import { Article, DribbbleShot, InstagramMedia } from "@/types/Sections";
+import { Article } from "@/types/Sections";
 
 export const getArticles = async (): Promise<Article[]> => {
   const pageSize = 6;
   const username = "yelethe1st";
-  const apiKey = "AVMtoEaXXhxTSLzxL4XWzti7";
+  const apiKey = process.env.DEV_COMMUNITY_API_KEY;
+
+  console.log(apiKey);
 
   if (!apiKey) return [];
 
