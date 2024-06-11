@@ -3,25 +3,24 @@ import Image from "next/image";
 
 const Header: React.FC = () => {
   return (
-    <div id="header" className="h-screen p-20">
-      <div className=" w-full h-full flex justify-cente items-cente">
-        {/* <div className=" space-y-4"> */}
-        <div className=" space-y-10 w-9/12">
-          <h1 className=" md:text-8xl lg:text-9xl  xl:text-[180px] xl:leading-[1] font-semibold ">
+    <div id="header" className=" p-8 md:p-16">
+      <div className=" w-full h-full md:flex ">
+        <div className=" pt-8 md:pt-0 space-y-6 md:space-y-10 md:w-8/12 xl:w-9/12">
+          <h1 className=" text-3xl md:text-7xl lg:text-8xl  xl:text-[170px] xl:leading-[1] font-semibold ">
             OMOYELE OLABODE.
           </h1>
-          <p className=" pl-4 max-w-md">
+          <p className=" md:pl-4 max-w-md">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi
             facilis officiis quaerat dolorum vel illum rem? Delectus provident
             amet deserunt reiciendis laborum maiores quia, tenetur ducimus
             exercitationem? Deleniti, sunt iste.
           </p>
-          <p className=" font-Meddon text-4xl pl-4">Heagis.</p>
-          <div className="pl-2">
+          <p className=" font-Meddon text-2xl md:text-4xl md:pl-4">Heagis.</p>
+          <div className="md:pl-2">
             <Profiles />
           </div>
         </div>
-        <div className=" w-3/12 ">
+        <div className=" mt-4 md:mt-0 md:w-4/12 xl:w-3/12 ">
           <div className=" h-[400px]">
             <Image
               src={`/images/h3.png`}
