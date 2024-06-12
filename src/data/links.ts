@@ -7,7 +7,7 @@ const links = {
   dev: "https://dev.to/yelethe1st",
   facebook: "",
   resume: "",
-  repository: "https://github.com/AmruthPillai/ResumeOnTheWeb",
+  repository: "",
 };
 
 export default links;

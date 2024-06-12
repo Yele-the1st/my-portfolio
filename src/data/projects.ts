@@ -9,10 +9,10 @@ const projectsList: Project[] = [
       "Streamlines event ticketing and vendor collaboration with tools for simplifying event management.",
     tags: [
       "Saas",
-      "webdev",
+      "payment",
       "fullstack",
       "react",
-      "nestjs",
+      "express",
       "tailwindcss",
       "Nodejs",
     ],
