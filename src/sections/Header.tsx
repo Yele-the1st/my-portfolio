@@ -9,7 +9,7 @@ const Header: React.FC = () => {
           <h1 className=" text-3xl md:text-7xl lg:text-8xl  xl:text-[170px] xl:leading-[1] font-semibold ">
             OMOYELE OLABODE.
           </h1>
-          <p className=" md:pl-4 max-w-md">
+          <p className=" opacity-80 text-sm md:text-base md:pl-4 max-w-md">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi
             facilis officiis quaerat dolorum vel illum rem? Delectus provident
             amet deserunt reiciendis laborum maiores quia, tenetur ducimus
@@ -35,7 +35,7 @@ const Header: React.FC = () => {
               <h3 className=" text-xs font-Meddon font-semibold">
                 My principles
               </h3>
-              <p className=" text-xs opacity-70">
+              <p className=" text-xs opacity-80">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
                 explicabo quo earum soluta eligendi molestiae omnis voluptatum,
                 nulla illum enim laborum mollitia commodi quod? Distinctio
@@ -44,7 +44,7 @@ const Header: React.FC = () => {
             </div>
             <div className=" mt-8 space-y-2">
               <h3 className=" text-xs font-Meddon font-semibold">My goal</h3>
-              <p className=" text-xs opacity-70">
+              <p className=" text-xs opacity-80">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Consequuntur.
               </p>

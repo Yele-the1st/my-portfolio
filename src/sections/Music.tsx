@@ -33,7 +33,7 @@ const Music = () => (
             )
           }
         >
-          Listen to My Everyday on Apple Music
+          Listen on Apple Music
         </Button>
       </div>
 
@@ -45,16 +45,6 @@ const Music = () => (
         sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
         src="https://embed.music.apple.com/ng/playlist/my-everyday/pl.u-leyl1MGHMYe2K97"
       ></iframe>
-
-      {/* <iframe
-        allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write"
-        frameBorder="0"
-        height="450"
-        width="100%"
-        className=" w-full overflow-hidden rounded-[10px] hidden md:block col-span-2"
-        sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
-        src="https://embed.music.apple.com/ng/playlist/agt-inspired/pl.u-b3b8Rx3UKNb9l02"
-      ></iframe> */}
     </div>
   </div>
 );
