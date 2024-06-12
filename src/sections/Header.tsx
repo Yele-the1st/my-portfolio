@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Header: React.FC = () => {
   return (
-    <div id="header" className=" p-8 md:p-16">
+    <div id="header" className=" pt-8">
       <div className=" w-full h-full md:flex ">
         <div className=" pt-8 md:pt-0 space-y-6 md:space-y-10 md:w-8/12 xl:w-9/12">
           <h1 className=" text-3xl md:text-7xl lg:text-8xl  xl:text-[170px] xl:leading-[1] font-semibold ">

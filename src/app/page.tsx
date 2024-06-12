@@ -34,9 +34,9 @@ const Home = () => {
   }, []);
 
   return (
-    <div className="grid gap-24">
-      <Header />
+    <div className="grid gap-24 ">
       <div className="w-5/6 mx-auto md:container grid gap-24 ">
+        <Header />
         <AboutMe />
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           <WorkExperienceTimeline />
