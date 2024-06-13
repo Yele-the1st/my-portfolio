@@ -22,30 +22,30 @@ type Education = {
 const education: Education[] = [
   {
     id: 1,
-    logo: "/images/education/alx.jpeg",
-    institution: "ALX",
+    logo: "/images/education/idt8sJ1OJn_1718284068137.jpeg",
+    institution: "Holberton School",
     degree: "Certificate",
-    study: "Software Engineering Programme",
+    study: "Software Engineering",
     location: "Lagos, Nigeria",
     period: { start: "2020", end: "2021" },
   },
   {
     id: 2,
+    logo: "/images/education/fcc_primary_small.png",
+    institution: "freeCodeCamp",
+    degree: "Full stack web developement certification",
+    study: "Computer Software Engineer",
+    location: "Ilorin, Nigeria",
+    period: { start: "2019", end: "2020" },
+  },
+  {
+    id: 3,
     logo: "/images/education/harvard-university-seeklogo.svg",
     institution: "Harvard University",
     degree: "CS50 Certificate",
     study: "Introduction to Computer Science.",
     location: "Massachusetts Hall, Cambridge, USA",
-    period: { start: "2019", end: "2020" },
-  },
-  {
-    id: 3,
-    logo: "/images/education/unilorin.png",
-    institution: "University of Ilorin",
-    degree: "Bachelor's in Engineering",
-    study: "Civil and Structural Engineering",
-    location: "Ilorin, Nigeria",
-    period: { start: "2016", end: "2021" },
+    period: { start: "2018", end: "2019" },
   },
 ];
 
