@@ -28,7 +28,8 @@ const workExperiences: WorkExperience[] = [
     period: { start: "Jul 23", end: "Present" },
     position: "Lead Frontend Developer",
     location: "Lagos, Nigeria",
-    summary: "",
+    summary:
+      "As the Frontend Lead at Tramango, a travel tech company, I led the development from the initial stages to production. I built the UI components from scratch and implemented key features. The company successfully raised $5 million in marketing funds.",
     keyFocus: [
       "React",
       "Tailwind CSS",
@@ -40,17 +41,18 @@ const workExperiences: WorkExperience[] = [
     id: 2,
     logo: "/images/work-experience/ourpass.png",
     name: "Ourpass",
-    period: { start: "Jan 22", end: "Jun 22" },
+    period: { start: "Mar 21", end: "Jun 23" },
     position: "Software Engineer",
     location: "Lagos, Nigeria",
     summary:
-      "As part of the IoT Console team, my roles and responsibilities were to build, test and maintain the console dashboard for IoT Devices that are purchased/rented from Twilio.",
+      "As a software engineer at Ourpass, a financial tech company, I developed and maintained secure, scalable financial solutions, optimized backend services, and collaborated with cross-functional teams to enhance user experience and system performance.The company successfully raised $1 million in pre-seed funds.",
     keyFocus: [
-      "React",
-      "Cypress (Automation Testing)",
-      "Scala",
-      "Process Management",
-      "In-Depth Documentation",
+      "SQL",
+      "AWS",
+      "GCP",
+      "Data Modelling",
+      "NodeJs",
+      "Microservices",
     ],
   },
   {

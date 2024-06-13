@@ -33,8 +33,8 @@ const Header: React.FC = () => {
           </div>
           <div className=" mt-8 ">
             <div className=" space-y-2">
-              <h3 className=" text-xs font-Meddon font-semibold">
-                My principles
+              <h3 className=" text-xs font-Meddo font-semibold">
+                MY PRINCIPLES
               </h3>
               <p className=" text-xs opacity-80">
                 I prioritize quality, continuous learning, and collaboration.
@@ -43,11 +43,11 @@ const Header: React.FC = () => {
               </p>
             </div>
             <div className=" mt-8 space-y-2">
-              <h3 className=" text-xs font-Meddon font-semibold">My goal</h3>
+              <h3 className=" text-xs font-Meddo font-semibold">MY GOAL</h3>
               <p className=" text-xs opacity-80">
-                My goal is to leverage my extensive expertise in software
-                development to build innovative solutions that enhance user
-                experiences and drive business success.
+                To leverage my extensive expertise in software development to
+                build innovative solutions that enhance user experiences and
+                drive business success.
               </p>
             </div>
           </div>

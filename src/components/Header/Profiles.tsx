@@ -12,6 +12,8 @@ import {
   FaTwitter,
 } from "react-icons/fa";
 
+import { FaXTwitter } from "react-icons/fa6";
+
 type Profile = {
   title: string;
   icon: IconType;
@@ -33,10 +35,10 @@ const profiles: Profile[] = [
     className: "bg-[#2867b2]",
   },
   {
-    title: "Twitter",
-    icon: FaTwitter,
+    title: "X.com",
+    icon: FaXTwitter,
     link: links.twitter,
-    className: "bg-[#1da1f2]",
+    className: "bg-[#0a0a0a]",
   },
   {
     title: "GitHub",
