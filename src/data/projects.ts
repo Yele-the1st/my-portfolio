@@ -88,6 +88,10 @@ const projectsList: Project[] = [
     summary:
       "Afri-Charity serves as a hub for unity and action, bringing together individuals, nonprofits, and charities to create positive change.",
     tags: ["webdev", "php", "mysql", "seo"],
+    link: {
+      web: "https://dona8v2.vercel.app",
+      github: "https://github.com/Yele-the1st/dona8v2",
+    },
   },
 ];
 
