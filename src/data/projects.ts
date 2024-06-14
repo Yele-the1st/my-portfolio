@@ -42,7 +42,7 @@ const projectsList: Project[] = [
     tags: ["opensource", "react", "dayjs", "tailwindcss"],
     link: {
       web: "https://timeenna.com",
-      github: "https://github.com/AmruthPillai/Time-Enna",
+      github: "https://nextjs-starter-kit-omega.vercel.app/",
     },
   },
   {
