@@ -10,11 +10,10 @@ const Header: React.FC = () => {
             OMOYELE OLABODE.
           </h1>
           <p className=" opacity-80 text-sm md:text-base md:pl-4 max-w-lg">
-            A versatile Senior Software Engineer with a passion for creating
-            seamless user experiences. With expertise spanning frontend,
-            backend, and mobile development, I thrive on solving complex
-            problems and sharing my knowledge through teaching, writing, and
-            speaking.
+            A versatile Software Engineer with over 4 years of experience with
+            expertise spanning frontend, backend, and mobile development, I
+            thrive on solving complex problems and sharing my knowledge through
+            teaching, writing, and speaking.
           </p>
           <p className=" font-Meddon text-2xl md:text-4xl md:pl-4">Heagis.</p>
           <div className="md:pl-2">
