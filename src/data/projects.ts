@@ -41,8 +41,7 @@ const projectsList: Project[] = [
       "A boilerplate for Next.js projects, providing essential tools to build modern, performant web applications.",
     tags: ["opensource", "react", "dayjs", "tailwindcss"],
     link: {
-      web: "https://timeenna.com",
-      github: "https://nextjs-starter-kit-omega.vercel.app/",
+      web: "https://nextjs-starter-kit-omega.vercel.app/",
     },
   },
   {
@@ -53,8 +52,8 @@ const projectsList: Project[] = [
       "An Authjs template that includes complete authentication flow, user authorization, credentials and OAuth login, and protected routes.",
     tags: ["opensource", "appdev", "flutter", "firebase", "android"],
     link: {
-      web: "https://play.google.com/store/apps/details?id=today.bethrifty.app",
-      github: "https://github.com/AmruthPillai/BeThriftyToday",
+      web: "https://super-auth-iota.vercel.app",
+      github: "https://github.com/Yele-the1st/super_auth",
     },
   },
   {
@@ -65,8 +64,8 @@ const projectsList: Project[] = [
       "Super Filter is part of a template set for advanced filtering and sorting of products.",
     tags: ["opensource", "webdev", "gamedev", "react", "tailwindcss"],
     link: {
-      web: "https://ap-all-the-words-that-i-know.web.app/",
-      github: "https://github.com/AmruthPillai/All-The-Words-That-I-Know",
+      web: "https://super-filter.vercel.app",
+      github: "https://github.com/Yele-the1st/super-filter",
     },
   },
   {
@@ -77,6 +76,7 @@ const projectsList: Project[] = [
       "Super Search uses semantic search with a vector database and an LLM model for embedding, rather than lexical search.",
     tags: ["opensource", "fintech", "scraping", "python", "angular"],
     link: {
+      web: "https://super-search-one.vercel.app",
       github:
         "https://github.com/AmruthPillai/MutualFund-Investment-Calculator",
     },
