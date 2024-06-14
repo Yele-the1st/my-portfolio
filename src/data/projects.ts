@@ -4,7 +4,7 @@ const projectsList: Project[] = [
   {
     id: 1,
     image: "/images/projects/Letsgo.png",
-    name: "Letsgo",
+    name: "Letsgo (Currently Building)",
     summary:
       "Streamlines event ticketing and vendor collaboration with tools for simplifying event management.",
     tags: [
