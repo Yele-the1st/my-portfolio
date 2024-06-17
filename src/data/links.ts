@@ -6,7 +6,8 @@ const links = {
   dribbble: "",
   dev: "https://dev.to/yelethe1st",
   facebook: "",
-  resume: "",
+  resume:
+    "https://docs.google.com/document/d/1wxDif_qQhvdKS7HSOGGCAV3iuvSPAdxgFeJXgvgEBLw/edit?usp=sharing",
   repository: "",
 };
 

@@ -45,7 +45,7 @@ const education: Education[] = [
     degree: "CS50 Certificate",
     study: "Introduction to Computer Science.",
     location: "Massachusetts Hall, Cambridge, USA",
-    period: { start: "2018", end: "2019" },
+    period: { start: "2019", end: "2020" },
   },
 ];
 
