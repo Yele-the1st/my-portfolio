@@ -30,7 +30,7 @@ const Designs: React.FC<Props> = ({ dribbbleShots }) => (
       onClick={() => openURLInNewTab(links.dribbble)}
       className="mt-8"
     >
-      Designs on Dribbble
+      Shots on Dribbble
     </Button>
   </div>
 );

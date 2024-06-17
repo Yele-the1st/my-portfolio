@@ -27,7 +27,7 @@ const projectsList: Project[] = [
     name: "Vesil",
     summary:
       "An eLearning platform where experts create structured learning roadmaps using YouTube videos.",
-    tags: ["opensource", "react", "dayjs", "tailwindcss"],
+    tags: ["opensource", "react", "Nextjs", "tailwindcss", "Nodejs", "Express"],
     link: {
       web: "https://www.vesil.xyz/",
       github: "https://github.com/Yele-the1st/lincher_v2",
@@ -39,7 +39,7 @@ const projectsList: Project[] = [
     name: "Nextjs Starter",
     summary:
       "A boilerplate for Next.js projects, providing essential tools to build modern, performant web applications.",
-    tags: ["opensource", "react", "dayjs", "tailwindcss"],
+    tags: ["Primsa", "Redis", "Upstash", "Superbase", "tailwindcss"],
     link: {
       web: "https://nextjs-starter-kit-omega.vercel.app/",
     },
@@ -50,7 +50,7 @@ const projectsList: Project[] = [
     name: "Super Auth",
     summary:
       "An Authjs template that includes complete authentication flow, user authorization, credentials and OAuth login, and protected routes.",
-    tags: ["opensource", "appdev", "flutter", "firebase", "android"],
+    tags: ["opensource", "Template", "Webapp", "Redux", "Prisma", "AuthJs"],
     link: {
       web: "https://super-auth-iota.vercel.app",
       github: "https://github.com/Yele-the1st/super_auth",
@@ -74,7 +74,7 @@ const projectsList: Project[] = [
     name: "Super Search",
     summary:
       "Super Search uses semantic search with a vector database and an LLM model for embedding, rather than lexical search.",
-    tags: ["opensource", "fintech", "scraping", "python", "angular"],
+    tags: ["opensource", "LLM", "Hugging Face", "Nextjs", "React"],
     link: {
       web: "https://super-search-one.vercel.app",
       github:
@@ -87,7 +87,7 @@ const projectsList: Project[] = [
     name: "Afri-Charity",
     summary:
       "Afri-Charity serves as a hub for unity and action, bringing together individuals, nonprofits, and charities to create positive change.",
-    tags: ["webdev", "php", "mysql", "seo"],
+    tags: ["Nextjs", "Shadcn UI", "React", "Redux"],
     link: {
       web: "https://dona8v2.vercel.app",
       github: "https://github.com/Yele-the1st/dona8v2",

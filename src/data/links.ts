@@ -8,7 +8,7 @@ const links = {
   facebook: "",
   resume:
     "https://docs.google.com/document/d/1wxDif_qQhvdKS7HSOGGCAV3iuvSPAdxgFeJXgvgEBLw/edit?usp=sharing",
-  repository: "",
+  repository: "https://discord.gg/Wrqv8rvC",
 };
 
 export default links;
