@@ -26,7 +26,7 @@ const workExperiences: WorkExperience[] = [
     logo: "/images/work-experience/Tramango-White.png",
     name: "Tramango.com",
     period: { start: "Jun 23", end: "Present" },
-    position: "Lead Frontend Developer",
+    position: "Senior Software Engineer",
     location: "Lagos, Nigeria",
     summary:
       "As the Frontend Lead at Tramango, a travel tech company, I led the development from the initial stages to production. I built the UI components from scratch and implemented key features. The company successfully raised $5 million in marketing funds.",
