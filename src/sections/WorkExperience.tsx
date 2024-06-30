@@ -47,7 +47,7 @@ const workExperiences: WorkExperience[] = [
     logo: "/images/work-experience/ourpass.png",
     name: "Ourpass",
     period: { start: "Sep 21", end: "May 23" },
-    position: "Senior Frontend engineer",
+    position: "Full-stack engineer",
     location: "Lagos, Nigeria",
     summary:
       "As a Software Engineer at Ourpass, a leading fintech company, I played a crucial role in developing and maintaining secure, scalable financial solutions. I optimized the application to ensure peak performance and collaborated with cross-functional teams to enhance both user experience and system efficiency. My contributions were instrumental in the company's successful acquisition of $1 million in pre-seed funding.",
