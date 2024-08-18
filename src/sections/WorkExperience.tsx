@@ -58,7 +58,7 @@ const workExperiences: WorkExperience[] = [
     logo: "/images/work-experience/ourpass.png",
     name: "Ourpass",
     period: { start: "Sep 21", end: "May 23" },
-    position: "Full-stack engineer",
+    position: "Software engineer",
     location: "Lagos, Nigeria",
     summary:
       "Led the development of a high-traffic fintech platform that processed over $5M in monthly transactions, focusing on scalable backend architecture and API development. Built and optimized APIs for integrating third-party services such as payment gateways and CRMs, reducing synchronization issues by 30%. Managed a team of five engineers to increase delivery speed by 35% through the implementation of CI/CD pipelines, allowing for faster updates and more frequent feature releases. Developed secure payment systems adhering to PCI-DSS standards, reducing transaction errors by 25% and significantly improving customer experience. Played an instrumental role in demonstrating the scalability and robustness of the platform, helping the company secure $1M in pre-seed funding. Additionally, refactored codebases and optimized database queries, boosting transaction processing speeds by 40%.",
