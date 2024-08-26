@@ -29,7 +29,7 @@ const workExperiences: WorkExperience[] = [
     position: "Senior Software Engineer",
     location: "Lagos, Nigeria",
     summary:
-      "As one of the pioneering developers at Tramango, led the backend migration from PHP to Node.js, reducing system response time by 30% and improving scalability. Designed and implemented a microservices architecture to enhance flexibility and performance, while leading efforts to integrate complex APIs, including Amadeus and Allianz. Developed security features such as OAuth and Time-Based One-Time Passwords (TOTP) for Multi-Factor Authentication, creating a highly secure system for users. Spearheaded performance optimizations, reducing load times by 40% and enhancing user engagement by 30% through frontend improvements. Contributed significantly to Tramango securing $5M in funding by delivering high-impact, reliable software solutions that impressed investors. Played a key role in mentoring junior engineers and conducting thorough code reviews to ensure code quality.",
+      "As a pioneering developer at Tramango, led the backend migration from PHP to Node.js, improving system response time by 30% and scalability. Designed a microservices architecture, integrated APIs like Amadeus and Allianz, and developed security features, including OAuth and TOTP for Multi-Factor Authentication. Spearheaded performance optimizations that reduced load times by 40% and increased user engagement by 30%. Contributed to securing $5M in funding by delivering reliable software solutions and played a key role in mentoring junior engineers and ensuring code quality through code reviews.",
     keyFocus: [
       "React",
       "TypeScript",
@@ -61,7 +61,7 @@ const workExperiences: WorkExperience[] = [
     position: "Software engineer",
     location: "Lagos, Nigeria",
     summary:
-      "Led the development of a high-traffic fintech platform that processed over $5M in monthly transactions, focusing on scalable backend architecture and API development. Built and optimized APIs for integrating third-party services such as payment gateways and CRMs, reducing synchronization issues by 30%. Managed a team of five engineers to increase delivery speed by 35% through the implementation of CI/CD pipelines, allowing for faster updates and more frequent feature releases. Developed secure payment systems adhering to PCI-DSS standards, reducing transaction errors by 25% and significantly improving customer experience. Played an instrumental role in demonstrating the scalability and robustness of the platform, helping the company secure $1M in pre-seed funding. Additionally, refactored codebases and optimized database queries, boosting transaction processing speeds by 40%.",
+      "Led the development of a high-traffic fintech platform handling over $5M in monthly transactions, focusing on scalable backend architecture and API development. Optimized APIs for third-party integrations, reducing synchronization issues by 30%. Managed a team of five engineers, increasing delivery speed by 35% through CI/CD implementation. Developed secure, PCI-DSS-compliant payment systems, reducing transaction errors by 25% and enhancing customer experience. Contributed to securing $1M in pre-seed funding by demonstrating platform scalability and robustness. Refactored codebases and optimized database queries, improving transaction processing speeds by 40%.",
     keyFocus: [
       "React",
       "React Native",
@@ -81,7 +81,7 @@ const workExperiences: WorkExperience[] = [
     position: "Fullstack Developer",
     location: "Lagos, Nigeria",
     summary:
-      "Worked as a fullstack developer at a freelance agency, leading the development of both frontend and backend components for a variety of client projects across industries such as e-commerce, healthcare, and education. Managed full project lifecycles, from gathering client requirements to deployment and ongoing maintenance, delivering high-performance web applications within budget and on time. Played a pivotal role in optimizing legacy systems, improving performance by 20% and ensuring scalability for future growth. Integrated third-party APIs and services, such as payment gateways and CRMs, enhancing the functionality and usability of client applications. Contributed to reducing development time for subsequent projects by 15% through the creation of reusable components and modules. Provided ongoing technical support, resolving 95% of reported issues within 24 hours, ensuring smooth operation and high client satisfaction.",
+      "Worked as a full-stack developer at a freelance agency, leading frontend and backend development for various client projects in industries like e-commerce, healthcare, and education. Managed full project lifecycles, optimizing legacy systems for a 20% performance improvement and ensuring scalability. Integrated third-party APIs and services, enhancing application functionality. Reduced development time by 15% by creating reusable components and modules. Provided ongoing technical support, resolving 95% of issues within 24 hours, ensuring smooth operation and high client satisfaction.",
     keyFocus: [
       "JavaScript",
       "React",
