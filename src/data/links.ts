@@ -7,7 +7,7 @@ const links = {
   dev: "https://dev.to/yelethe1st",
   facebook: "",
   resume:
-    "https://docs.google.com/document/d/1wxDif_qQhvdKS7HSOGGCAV3iuvSPAdxgFeJXgvgEBLw/edit?usp=sharing",
+    "https://docs.google.com/document/d/1vqVpBVcVWkWmeR3hUKTK08x_SI67ASAxj57DAOcGvCU/edit?tab=t.0",
   repository: "https://discord.gg/Wrqv8rvC",
 };
 

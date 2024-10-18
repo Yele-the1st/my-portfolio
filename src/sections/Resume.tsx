@@ -13,8 +13,8 @@ const Resume = () => (
         <ImageLink
           height={300}
           href={links.resume}
-          src="/images/resume/cover.png"
-          alt="Amruth Pillai's Resume on Print"
+          src="/images/resume/new.png"
+          alt="Omoyele Olabode's Resume on Print"
         />
       </div>
 
