@@ -77,8 +77,7 @@ const projectsList: Project[] = [
     tags: ["opensource", "LLM", "Hugging Face", "Nextjs", "React"],
     link: {
       web: "https://super-search-one.vercel.app",
-      github:
-        "https://github.com/AmruthPillai/MutualFund-Investment-Calculator",
+      github: "https://github.com/Yele-the1st/super_search",
     },
   },
   {
